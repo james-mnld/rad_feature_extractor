@@ -5,27 +5,40 @@ feature_extractor.py extracts radiomic features from patient scans under PATIENT
 
 ## Expected folder structure:
 - PATIENTS_FOLDER
+
 	  - Patient1
+	  
 		    - Day1
-            - RT-struct.dcm
-            - slice1.dcm
-            - slice2.dcm
-            - ...
+		    
+            		- RT-struct.dcm
+            		- slice1.dcm
+            		- slice2.dcm
+            		- ...
+			
 		    - Day2
-            - RT-struct.dcm
-            - slice1.dcm
-            - slice2.dcm
-            - ...
+		    
+            		- RT-struct.dcm
+            		- slice1.dcm
+            		- slice2.dcm
+            		- ...
+			
 		    - Day3
-            - RT-struct.dcm
-            - slice1.dcm
-            - slice2.dcm
-            - ...
+		    
+            		- RT-struct.dcm
+            		- slice1.dcm
+            		- slice2.dcm
+            		- ...
+			
 		    - ...
+		    
 	  - Patient2
+	  
 		    - ...
+		    
 	  - Pattent3
+	  
 		    - ...
+		    
 	  - ...
     
 ## To modify in code:
@@ -43,6 +56,5 @@ The RadiomicsFeaturesExtractor instance uses a resampledPixelSpacing of 0.5cm x 
 - the code was written in python 3.6.8
 
 ## To run:
-python path_to_/feature_extractor.py
-or
-python3 path_to_/feature_extractor.py
+- python path_to_/feature_extractor.py
+- python3 path_to_/feature_extractor.py
