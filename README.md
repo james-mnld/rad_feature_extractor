@@ -51,6 +51,7 @@ feature_extractor.py extracts radiomic features from patient scans under PATIENT
 
 ## Default settings of extractor:
 The RadiomicsFeaturesExtractor instance uses a resampledPixelSpacing of 0.5cm x 0.5cm x 0.5cm, and normalizes the pixel values of the images. These settings can be modified in the instantiate_extractor() function. For more information, see https://pyradiomics.readthedocs.io/en/latest/radiomics.html.
+The feature extractor instance also has all available image types enabled.
 
 ## Additional requirements:
 - feature_extractor.py uses plastimatch (http://plastimatch.org/plastimatch.html) to combine the dicom slices and extract the masks from the RT-struct. plastimatch must be installed and added to $PATH.
