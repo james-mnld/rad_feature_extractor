@@ -4,7 +4,8 @@ Feature extraction pipeline using pyradiomics (v 2.1.2).
 feature_extractor.py extracts radiomic features from patient scans under PATIENTS_FOLDER and produces a RESULTS_FOLDER with the same folder structure as PATIENTS_FOLDER. Instead of having the dicom files, each day folder in RESULTS_FOLDER will have the combined image (.nrrd file) and a 'Masks' folder containing the generated masks (.mha files). Each patient folder in RESULTS_FOLDER will have the extracted data in csv form with the features as columns and day numbers as rows.
 
 ## Expected folder structure:
-- PATIENTS_FOLDER
+
+- PATIENTS_FOLDER:
 
 	  - Patient1
 	  
