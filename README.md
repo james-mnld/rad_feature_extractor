@@ -36,7 +36,7 @@ feature_extractor.py extracts radiomic features from patient scans under PATIENT
 	  
 		    - ...
 		    
-	  - Pattent3
+	  - Patient3
 	  
 		    - ...
 		    
